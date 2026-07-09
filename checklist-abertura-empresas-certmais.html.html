@@ -404,7 +404,7 @@
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
         <h2>Prontinho!</h2>
-        <p>Seu checklist está a caminho do e-mail informado. Aproveite pra já salvar o contato do Grupo Certmais no WhatsApp.</p>
+        <p>Você já vai poder baixar o seu checklist na próxima tela. Aproveite pra conhecer a parceria Certmais.</p>
       </div>
     </div>
   </div>
@@ -470,6 +470,9 @@
     // webhook (Zapier/n8n) ou pelo endpoint do Meta Lead Ads/RD Station.
     document.getElementById('formBody').classList.add('hide');
     document.getElementById('successBody').classList.add('show');
+    setTimeout(function(){
+      window.location.href = 'parceria-certmais.html';
+    }, 900);
   });
 </script>
 
